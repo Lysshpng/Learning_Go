@@ -12,8 +12,9 @@
     >   >   go env -w GO111MODULE=on (但是要off掉后才能git) <br/>
     >   >   go env -w GOPROXY=https://proxy.golang.com.cn,direct
 
-- [ ] 学习Golang基础
-    > go mod init Learning_Go 初始化Go项目 <br/>
-    > [first Go](src/hello.go) <br/>
-    > 基础语法与Python相近 <br/>
-    > 
+- 学习Golang基础
+    > - [x] go mod init Learning_Go 初始化Go项目
+    > - [x] [first Go](src/hello.go) <br/>
+    > 基础语法与Python相近
+    > - [x] 常量
+    > - [x] iota
