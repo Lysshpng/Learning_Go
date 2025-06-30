@@ -98,6 +98,8 @@ func main() {
 	fmt.Println(iota_a, iota_b, iota_c, iota_d, iota_e, iota_f, iota_g, iota_h, iota_i)
 
 	// k和l相当于是默认与前一个相同的操作
+	// 左移n位就是乘以2的n次方
+	// 右移n位就是除以2的n次方
 	const (
 		i = 1 << iota
 		j = 3 << iota
@@ -108,6 +110,8 @@ func main() {
 	fmt.Println("j=", j) // 6
 	fmt.Println("k=", k) // 12
 	fmt.Println("l=", l) // 24
+
+	// %T -> 输出变量类型
 }
 
 /**
