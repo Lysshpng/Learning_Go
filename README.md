@@ -2,6 +2,16 @@
 
 ## 持续学习更新中..
 * [250627](#250627) 
+* [250630](#250630) 
+* 
+---
+
+
+
+
+## 250630 <a id="250630"> </a>
+- [x] 基础语法 [basics](./src/basics.go)
+    > - [x] 数组
 
 
 ---
@@ -15,6 +25,5 @@
 - 学习Golang基础
     > - [x] go mod init Learning_Go 初始化Go项目
     > - [x] [first Go](src/hello.go) <br/>
-    > 基础语法与Python相近
     > - [x] 常量
     > - [x] iota
